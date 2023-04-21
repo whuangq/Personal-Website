@@ -4,3 +4,12 @@
     flex-grow: 1;
     max-width: 100%;
   }
+
+  .card {
+    min-height: 250px !important;
+    min-width: 200px !important;
+  }
+  
+  .custom-nav {
+    background-color: black;
+  }
