@@ -1,4 +1,5 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
 .col {
     flex-basis: 0;
     flex-grow: 1;
@@ -6,10 +7,27 @@
   }
 
   .card {
-    min-height: 250px !important;
+    min-height: 150px !important;
     min-width: 200px !important;
   }
   
   .custom-nav {
     background-color: black;
+  }
+
+  .custom-accordion-bg {
+    background-color: #d5dadf !important;
+  }
+
+  .icon-container {
+    background-color: black;
+    min-height: 150px !important;
+    min-width: 150px !important;
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding:30px; 
   }

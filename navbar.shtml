@@ -1,0 +1,33 @@
+<!--This is the navigation bar that goes at the top of the page-->
+<nav class="navbar navbar-expand-md custom-nav navbar-dark">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">Wilson Huang Quan</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="goals.html" class="nav-link text-light">My goals</a>
+        </li>
+        <li class="nav-item">
+          <a href="programming.html" class="nav-link text-light">Programming</a>
+        </li>
+        <li class="nav-item">
+          <a href="hobbies.html" class="nav-link text-light">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link text-light">About this site</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link text-light">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
