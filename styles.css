@@ -8335,7 +8335,7 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center, .custom-row, .biography-card {
+.text-center, .h1-title, .custom-row, .biography-card {
   text-align: center !important;
 }
 
@@ -11881,11 +11881,16 @@ textarea.form-control-lg {
   width: 50%;
 }
 
+.h1-title {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
 .custom-accordion-bg {
   background-color: #d5dadf !important;
 }
 
-.icon-container {
+/*.icon-container {
   background-color: black;
   min-height: 150px !important;
   min-width: 150px !important;
@@ -11895,7 +11900,7 @@ textarea.form-control-lg {
   text-align: center;
   line-height: 100px;
   vertical-align: middle;
-  padding: 30px;
-}
+  padding:30px; 
+}*/
 
 /*# sourceMappingURL=styles.css.map */

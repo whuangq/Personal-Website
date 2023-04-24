@@ -61,13 +61,17 @@
     @extend .pt-4;
   }
 
-  
+  .h1-title {
+    @extend .text-center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
 
   .custom-accordion-bg {
     background-color: #d5dadf !important;
   }
 
-  .icon-container {
+  /*.icon-container {
     background-color: black;
     min-height: 150px !important;
     min-width: 150px !important;
@@ -78,4 +82,4 @@
     line-height: 100px;
     vertical-align: middle;
     padding:30px; 
-  }
+  }*/
